@@ -145,7 +145,7 @@ img {
     height: 100%;
     padding: 3rem;
     text-align: center;
-    background-color: #000;
+    background-color: #000B18;
     transition: all .5s ease-in-out;
     overflow-y: hidden;
   }
@@ -215,7 +215,7 @@ img {
 .menu__btn__burger::after {
   width: 1.1rem;
   height: 0.13rem;
-  background: #000;
+  background: var(--second-color);
   border-radius: 5px;
   transition: all .5s ease-in-out;
 }
