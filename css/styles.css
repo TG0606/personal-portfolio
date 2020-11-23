@@ -14,12 +14,12 @@
   --second-color: #0E2431;
 }
 
-/*===== Fuente y tipografia =====*/
+/*===== Typographies and sizes =====*/
 :root {
   --body-font: 'Poppins', sans-serif;
   --large-font-size: 3rem;
   --big-font-size: 2rem;
-  --h2-font-size: 1.25rem;
+  --h2-font-size: 1.45rem;
   --normal-font-size: 0.938rem;
 }
 
@@ -365,13 +365,12 @@ img {
 }
 
 /* ===== CONTACT =====*/
-.contact__container {
+.contact {
   margin-bottom: var(--mb-5);
 }
 
-.contact__info {
-  margin: auto;
-  margin-bottom: var(--mb-4);
+.contact__container {
+  margin-bottom: var(--mb-5);
 }
 
 .ifStatement__container {
@@ -386,7 +385,7 @@ img {
 }
 
 #email-me {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 #email-me:hover {
@@ -500,10 +499,10 @@ img {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
   }
-}
 
-.contact {
-  margin-bottom: var(--mb-5);
+  #email-me {
+    font-size: 1.35rem;
+  }
 }
 
 @media screen and (min-width: 1024px) {
