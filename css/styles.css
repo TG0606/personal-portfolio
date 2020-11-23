@@ -19,7 +19,7 @@
   --body-font: 'Poppins', sans-serif;
   --large-font-size: 3rem;
   --big-font-size: 2rem;
-  --h2-font-size: 1.45rem;
+  --h2-font-size: 1.65rem;
   --normal-font-size: 0.938rem;
 }
 
@@ -95,7 +95,7 @@ img {
   left: 0;
   right: 0;
   margin: auto;
-  top: 2rem;
+  top: 2.4rem;
   background-color: var(--first-color);
 }
 
@@ -282,11 +282,14 @@ img {
   box-shadow: 0 4px 25px rgba(14, 36, 49, .15);
 }
 
+.img__container {
+  text-align: center;
+}
+
 .img__container img {
+  max-width: 85%;
   transition: 1s;
   cursor: pointer;
-  width: 400px;
-  height: 400px;
   margin-bottom: var(--mb-4);
 }
 
@@ -433,7 +436,7 @@ img {
 
   .section-title::after {
     width: 64px;
-    top: 3rem;
+    top: 2.9rem;
   }
 
   .nav {
@@ -467,11 +470,6 @@ img {
 
   .img__container {
     width: 45%;
-  }
-
-  .img__container img {
-    width: 95%;
-    height: auto;
   }
 
   .work__content {
