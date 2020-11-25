@@ -257,10 +257,25 @@ img {
 /*===== HOME =====*/
 .home {
   padding-top: 100px;
-  background-color: var(--second-color);
+  /* background-color: var(--second-color); */
+  background: linear-gradient(-45deg, #003366, #394867, #14274e, #006699);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
   display: grid;
   grid-template-columns: 100%;
-  margin-top: 4rem;
+  margin-top: 2.5rem;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 .home__data {
