@@ -33,8 +33,8 @@ menuBtn.addEventListener('click', () => {
 /*===== SCROLL REVEAL ANIMATION =====*/
 const sr = ScrollReveal({
   origin: 'bottom',
-  distance: '80px',
-  duration: 2000,
+  distance: '40px',
+  duration: 1000,
   reset: true
 });
 
@@ -59,9 +59,6 @@ sr.reveal('.about__text', {
 });
 
 /*SCROLL CONTACT*/
-sr.reveal('.contact__info', {
-  delay: 200
-});
-sr.reveal('.ifStatement__container', {
-  interval: 300
-});
+// sr.reveal('.ifStatement__container', {
+//   interval: 350
+// });
