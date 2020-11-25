@@ -55,10 +55,5 @@ sr.reveal('.img__container', {
 /*SCROLL ABOUT*/
 sr.reveal('.about__img', {});
 sr.reveal('.about__text', {
-  delay: 350
+  interval: 250
 });
-
-/*SCROLL CONTACT*/
-// sr.reveal('.ifStatement__container', {
-//   interval: 350
-// });
